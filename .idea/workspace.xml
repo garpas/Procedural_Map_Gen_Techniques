@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d68694f6-54db-4ba1-95e2-333ae8ccdad3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Hello Git.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2eWkNoZIsUtsScIpyCJouHD6Gic" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d68694f6-54db-4ba1-95e2-333ae8ccdad3" name="Default Changelist" comment="" />
+      <created>1712027683739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712027683739</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2359" y="444" key="FileChooserDialogImpl" timestamp="1712028800733">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2359" y="444" key="FileChooserDialogImpl/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712028800733" />
+    <state x="2081" y="348" key="SettingsEditor" timestamp="1712028332496">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2081" y="348" key="SettingsEditor/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712028332496" />
+  </component>
+</project>
