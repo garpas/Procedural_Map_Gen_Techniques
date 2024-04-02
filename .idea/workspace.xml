@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d68694f6-54db-4ba1-95e2-333ae8ccdad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hello Git.py" afterDir="false" />
-    </list>
+    <list default="true" id="d68694f6-54db-4ba1-95e2-333ae8ccdad3" name="Default Changelist" comment="test if git works" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,9 +42,39 @@
       <option name="presentableId" value="Default" />
       <updated>1712027683739</updated>
     </task>
+    <task id="LOCAL-00001" summary="test if git works">
+      <created>1712029100391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712029100391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test if git works">
+      <created>1712029301328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712029301328</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test if git works">
+      <created>1712029313520</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712029313520</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test if git works" />
+    <option name="LAST_COMMIT_MESSAGE" value="test if git works" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2034" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1712029084349">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2034" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712029084349" />
     <state x="2359" y="444" key="FileChooserDialogImpl" timestamp="1712028800733">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -55,5 +83,9 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2081" y="348" key="SettingsEditor/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712028332496" />
+    <state x="2385" y="616" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712029141721">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2385" y="616" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712029141721" />
   </component>
 </project>
