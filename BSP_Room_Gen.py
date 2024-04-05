@@ -17,13 +17,15 @@ class Color:
 
 
 def display_screen(map_arr, display_text=''):
-    max_idx = max(max(map_arr))
+    max_idx = max(map(max, map_arr))
     print('\n' + display_text + str(max_idx+1))
 
 
     for h in map_arr:
         for p in h:
-            if p % 8==0:
+            if p <0 :
+                print('.', end =' ')
+            elif p % 8==0:
                 print(Color.BOLD + Color.RED + '#' + Color.END, end=' ')
             elif p % 8==1:
                 print(Color.BOLD + Color.YELLOW + '#' + Color.END, end=' ')
@@ -54,7 +56,7 @@ def create_new_section(map_arr, section_info):
 
     if random.random()>=0.5 and selected_section_info[2]>=8 or selected_section_info[3]<8:
         # 가로 분할
-        new_section_width = random.randint(max(math.ceil(selected_section_info[2]*0.4),4),min(math.floor(selected_section_info[2]*0.6)+1,selected_section_info[2]-3))
+        new_section_width = random.randint(max(math.ceil(selected_section_info[2]*0.4),4),min(math.floor(selected_section_info[2]*0.6)+1,selected_section_info[2]-4))
         for w in range(new_section_width):
             for h in range(selected_section_info[3]):
                 map_arr[h+selected_section_info[1]][w+selected_section_info[0]] = max_idx+1
@@ -64,7 +66,7 @@ def create_new_section(map_arr, section_info):
     else:
         # 세로 분할
         new_section_height = random.randint(max(math.ceil(selected_section_info[3] * 0.4),4),
-                                           min(math.floor(selected_section_info[3] * 0.6) + 1,selected_section_info[3]-3))
+                                           min(math.floor(selected_section_info[3] * 0.6) + 1,selected_section_info[3]-4))
         for w in range(selected_section_info[2]):
             for h in range(new_section_height):
                 map_arr[h+selected_section_info[1]][w + selected_section_info[0]]= max_idx+1
@@ -77,6 +79,21 @@ def create_new_section(map_arr, section_info):
     return map_arr
 
 
+def erode(map_arr, section_info):
+    for section in section_info.values():
+        #상
+        for x in range(section[2]):
+            map_arr[section[1]][x + section[0]] = -1
+        #좌
+        for y in range(section[3]):
+            map_arr[section[1]+y][section[0]] = -1
+        #우
+        for y in range(section[3]):
+            map_arr[section[1]+y][section[2] + section[0]-1] = -1
+        #하
+        for x in range(section[2]):
+            map_arr[section[1]+section[3]-1][x + section[0]] = -1
+
 def main():
     random.seed(1234)   # 시드 설정
     map_width = 40      # 전체 지도의 가로 크기
@@ -88,9 +105,12 @@ def main():
 
     display_screen(map_arr, 'Number of Sections = ')
 
-    for _ in range(15):
+    for _ in range(9):
         create_new_section(map_arr, section_info)
         display_screen(map_arr, 'Number of Sections = ')
+
+    erode(map_arr, section_info)
+    display_screen(map_arr, 'Number of Sections = ')
 
 
 

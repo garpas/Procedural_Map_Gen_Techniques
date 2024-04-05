@@ -18,7 +18,7 @@ class Color:
 def display_screen(map_arr, display_text=''):
     print('\n' + display_text)
 
-    max_idx = max(max(map_arr))
+    max_idx = max(map(max, map_arr))
     for h in map_arr:
         for p in h:
             if p == 0:
