@@ -20,15 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d68694f6-54db-4ba1-95e2-333ae8ccdad3" name="Default Changelist" comment="Abstract readme&#10;Display map">
-      <change afterPath="$PROJECT_DIR$/Cellular_Automata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drunkards_Walk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/BSP_Room_Gen.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Cellular_Automata.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Drunkards_Walk.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Diffusion_Limmited_aggregation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Diffusion_Limmited_Aggression.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Diffusion_Limmited_Aggression_Bug.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP_Room_Gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/BSP_Room_Gen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random_Room_Gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Random_Room_Gen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Drunkards_Walk.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Diffusion_Limmited_aggregation.py" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -74,7 +70,7 @@
       <recent name="C:\Users\garpa\Desktop\PMGT" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Drunkards_Walk">
+  <component name="RunManager" selected="Python.Diffusion_Limmited_aggregation">
     <configuration name="BSP_Room_Gen" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PMGT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,6 +105,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cellular_Automata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Diffusion_Limmited_aggregation" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PMGT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\garpa\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Diffusion_Limmited_aggregation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,6 +181,7 @@
       <item itemvalue="Python.BSP_Room_Gen" />
       <item itemvalue="Python.Cellular_Automata" />
       <item itemvalue="Python.Drunkards_Walk" />
+      <item itemvalue="Python.Diffusion_Limmited_aggregation" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -219,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712161751739</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cellular Automata, Drunkard's Walk 소개 및 코드">
+      <created>1712331249151</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712331249151</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,37 +270,42 @@
     <MESSAGE value="test if git works" />
     <MESSAGE value="Abstract readme&#10;Display map" />
     <MESSAGE value="BSP_Room_Gen Code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="BSP_Room_Gen Code added" />
+    <MESSAGE value="Cellular Automata, Drunkard's Walk 소개 및 코드" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cellular Automata, Drunkard's Walk 소개 및 코드" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2034" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1712322246260">
+    <state x="1605" y="562" key="#Notifications" timestamp="1712390759764">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2034" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712322246260" />
+    <state x="1605" y="562" key="#Notifications/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712390759764" />
+    <state x="2034" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1712378235887">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2034" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712378235887" />
     <state x="1466" y="552" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1712059876258">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1466" y="552" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712059876257" />
-    <state x="2359" y="444" key="FileChooserDialogImpl" timestamp="1712322245000">
+    <state x="2359" y="444" key="FileChooserDialogImpl" timestamp="1712378234701">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2359" y="444" key="FileChooserDialogImpl/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712322245000" />
-    <state width="1533" height="1045" key="GridCell.Tab.0.bottom" timestamp="1712328943197">
+    <state x="2359" y="444" key="FileChooserDialogImpl/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712378234701" />
+    <state width="756" height="1042" key="GridCell.Tab.0.bottom" timestamp="1712462862670">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1533" height="1045" key="GridCell.Tab.0.bottom/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712328943197" />
-    <state width="1533" height="1045" key="GridCell.Tab.0.center" timestamp="1712328943197">
+    <state width="756" height="1042" key="GridCell.Tab.0.bottom/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712462862670" />
+    <state width="756" height="1042" key="GridCell.Tab.0.center" timestamp="1712462862669">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1533" height="1045" key="GridCell.Tab.0.center/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712328943197" />
-    <state width="1533" height="1045" key="GridCell.Tab.0.left" timestamp="1712328943197">
+    <state width="756" height="1042" key="GridCell.Tab.0.center/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712462862669" />
+    <state width="756" height="1042" key="GridCell.Tab.0.left" timestamp="1712462862669">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1533" height="1045" key="GridCell.Tab.0.left/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712328943197" />
-    <state width="1533" height="1045" key="GridCell.Tab.0.right" timestamp="1712328943197">
+    <state width="756" height="1042" key="GridCell.Tab.0.left/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712462862669" />
+    <state width="756" height="1042" key="GridCell.Tab.0.right" timestamp="1712462862669">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1533" height="1045" key="GridCell.Tab.0.right/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712328943197" />
+    <state width="756" height="1042" key="GridCell.Tab.0.right/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712462862669" />
     <state x="2388" y="405" key="RollbackChangesDialog" timestamp="1712029355077">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -284,10 +314,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2081" y="348" key="SettingsEditor/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712060677178" />
-    <state x="2172" y="423" key="Vcs.Push.Dialog.v2" timestamp="1712161754418">
+    <state x="2172" y="423" key="Vcs.Push.Dialog.v2" timestamp="1712331252371">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2172" y="423" key="Vcs.Push.Dialog.v2/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712161754418" />
+    <state x="2172" y="423" key="Vcs.Push.Dialog.v2/0.0.3440.1400/3440.209.1920.1040@0.0.3440.1400" timestamp="1712331252371" />
     <state x="2385" y="616" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712029141721">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>

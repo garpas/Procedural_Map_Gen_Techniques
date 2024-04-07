@@ -112,4 +112,34 @@ demo: WIP
 max(2차원 리스트)
 
 
+## Diffusion Limited Aggregation
+![Diffusion Limited Aggregation](images/Diffusion_Limmited_Aggression.JPG)
 
+code: [Diffusion Limited Aggregation](Diffusion_Limmited_aggregation.py)  
+demo: WIP  
+참고 페이지 : [Roguleike Tutorial - In Rust](https://bfnightly.bracketproductions.com/rustbook/chapter_30.html), [Roguebasin](https://www.roguebasin.com/index.php?title=Diffusion-limited_aggregation)  
+
+
+유한 합산 집합체라는 어려운 이름을 가진 알고리즘입니다. 번개나 개미굴과 같은 프랙탈 모양의 방을 만들 수 있으며 룰을 변형하면 유기적이면서 독특한 맵을 만들 수 있습니다.
+이 기법을 사용하면 생성한 맵의 모든 가지들이 연결되어있습니다. 
+1. 맵을 전부 벽으로 채웁니다.
+2. 맵 중앙에 빈칸 하나를 생성합니다.
+3. 랜덤으로 한칸을 고릅니다.(이미 빈칸인 지역과 인접하지 않은 칸이 이상적입니다.)
+4. 선택한 칸에서 랜덤한 방향으로 빔을 쏩니다.
+5. 빔이 빈칸과 조우하였다면 만나기 직전의 벽을 빈칸으로 바꿉니다.
+6. 빈칸의 숫자가 일정수준 넘을때까지 3~5를 반복합니다.
+
+예제에서 빨간색0은 3번에서 선택한 칸, 파란색*는 빔, 빨간색#은 5번에서 새로 교체한 빈칸입니다.
+코드 구현하면서 while문과 if문을 이렇게 남발한적은 처음인거 같습니다.
+빔을 더 효과적으로 쏘는 방법이 있을텐데 저는 생각나지 않아 무식하게 직선 위 점들을 모두 확인하는 코드를 짰습니다.
+While문은 조건을 조금만 잘못 생각하거나 사소한 오타가 나도 오류가 너무 커지기 때문에 선호하는 편은 아니지만, 더 나은 방법을 찾지 못해서 여러 반복문을 썼습니다.
+당연히 무식하게 구현한만큼 버그도 존재합니다.
+
+![Diffusion Limited Aggregation Bug](images/Diffusion_Limmited_Aggression_Bug.JPG)  
+탄젠트 값의 절대 값이 매우 크면 생기는 오류로 보이며 전체적으로 코드를 손봐야 해서 일단은 남겨두었습니다.
+
+#### Tangent
+삼각함수를 사용하지 않고 랜덤 방향을 정하는 방법?  
+이 알고리즘 구현하면서 생각해볼만한 부분은 랜덤 방향으로 레이저는 쏘는 방법입니다.
+물론 math라이브러리를 이용해 0~2pi사이 랜덤 값을 sin과 cos을 함수에 입력하는 방법으로 구현할 수 있지만,
+추가 라이브러리를 사용하지 않고 이와 가장 유사하게 만들 수 있는 방법이 있는지 생각해 보았습니다. 
