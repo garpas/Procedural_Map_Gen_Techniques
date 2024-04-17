@@ -7,7 +7,12 @@ The same descriptions in English can be found at  [README(ENG).md](README(Eng).m
 가장 최적화된 방법을 찾는게 아닌 알고리즘의 흐름을 이해하고 직접 구현해보자에 초점이 맞춰져 있기 때문에 틀리거나 비효율적인 점이 다소 존재할 수 있습니다.
   
 
-**Work in progress**
+**Work in progress**  
+ToDo list
+- Finish Code for each method  
+- Colab Demo
+- Animated examples
+- English Translations
 
 ## 개요
 ![로그](images/로그.png)
@@ -138,8 +143,30 @@ While문은 조건을 조금만 잘못 생각하거나 사소한 오타가 나�
 ![Diffusion Limited Aggregation Bug](images/Diffusion_Limmited_Aggression_Bug.JPG)  
 탄젠트 값의 절대 값이 매우 크면 생기는 오류로 보이며 전체적으로 코드를 손봐야 해서 일단은 남겨두었습니다.
 
+### Center?
+
 #### Tangent
 삼각함수를 사용하지 않고 랜덤 방향을 정하는 방법?  
 이 알고리즘 구현하면서 생각해볼만한 부분은 랜덤 방향으로 레이저는 쏘는 방법입니다.
 물론 math라이브러리를 이용해 0~2pi사이 랜덤 값을 sin과 cos을 함수에 입력하는 방법으로 구현할 수 있지만,
-추가 라이브러리를 사용하지 않고 이와 가장 유사하게 만들 수 있는 방법이 있는지 생각해 보았습니다. 
+추가 라이브러리를 사용하지 않고 이와 가장 유사하게 만들 수 있는 방법이 있는지 생각해 보았습니다.
+
+## Voronoi Diagrams
+![Voronoi Diagrams](images/Voronoi_Diagram.JPG)
+
+code: [Voronoi Diagrams](Voronoi_Diagrams.py)  
+demo: WIP
+
+ 맵에 랜덤적으로 시드를 설정하고 모든 칸을 가장 가까운 시드의 그룹에 포함시켜 지도를 생성하는 방법입니다.
+ 시드를 램덤하게 설정하면 매우 불규칙적인 맵이 생성되며 일정한 간격을 두고 설정하면 벌집과 같은 형태를 띄게 됩니다.
+ 또 거리를 계산하는 방법에 따라 서로 다른 느낌의 맵을 생성합니다.
+ 이 방법은 직접적인 맵 생성에 사용하기 보다 같은 그룹의 몬스터를 동일 셀에서 소환한다던지 서로 상반되는 세력은 멀리 떨어진 셀에 소환한다 같은 룰을 짜는데 도움을 줍니다.
+ 
+![Manhattan](images/Voronoi_Diagram_Manhattan.JPG)
+![Chebyshev](images/Voronoi_Diagram_Chebyshev.JPG)
+
+같은 시드에서 거리 계산만 다르게 설정하였지만 맨해튼 거리는 인위적인 직선 거리로 형성되고,
+체비쇼프 거리는 피타고라스와 맨해튼을 합친 결과와 비슷하게 나옵니다.
+
+### Perlin/Simplex Noise
+ 
